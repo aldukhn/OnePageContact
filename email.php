@@ -1,3 +1,5 @@
+// You should create a new database that store Email data
+// Then you can build an APi to list it in any kind of applications or pages.
 <?php 
     require_once("config.php");
     if((isset($_POST['name'])&& $_POST['name'] !='') && (isset($_POST['email'])&& $_POST['email'] !=''))
